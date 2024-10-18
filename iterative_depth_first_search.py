@@ -26,13 +26,13 @@ def IDDFS(city,visitedstack,endlimit):
         found = DLS(city,visitedstack, 0 , i) 
         if found: 
             print("Found") 
-        break 
-    else: 
-        print("Not Found!") 
-        print(result) 
-        print("______") 
-    result="" 
-visitedstack = []
+            break 
+        else: 
+            print("Not Found!") 
+            print(result) 
+            print("______") 
+            result="" 
+            visitedstack = []
 
 def main(): 
     visitedstack = [] 
