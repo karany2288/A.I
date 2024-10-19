@@ -1,8 +1,11 @@
 #Make sure to "pip install scikit-learn" and "pip install pandas"
 
 import pandas 
+import warning
 from sklearn import model_selection
 from sklearn.ensemble import AdaBoostClassifier
+
+warnings.filterwarnings('ignore')
 
 #download the diabetes.csv file and give its path to the url variable
 url = ("/diabetes.csv") 
