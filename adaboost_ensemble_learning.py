@@ -1,7 +1,7 @@
 #Make sure to "pip install scikit-learn" and "pip install pandas"
 
 import pandas 
-import warning
+import warnings
 from sklearn import model_selection
 from sklearn.ensemble import AdaBoostClassifier
 
